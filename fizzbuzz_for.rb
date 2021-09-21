@@ -1,5 +1,7 @@
+input_num = ARGV[0].to_i
 i = 1
-while i <= ARGV[0].to_i
+
+for i in 1..input_num do
   if i%15 == 0
     puts "FizzBuzz"
   elsif i%5 == 0
